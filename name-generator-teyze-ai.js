@@ -938,7 +938,7 @@ class PetNameGenerator {
           }
           
           // Cihaz tipine göre maksimum isim sayısı ayarlanıyor
-          const maxNames = isMobile ? 8 : 9;
+          const maxNames = isMobile ? 8 : 8;
           if (uniqueNames.length >= maxNames) {
             break;
           }
@@ -966,7 +966,7 @@ class PetNameGenerator {
       }
       
       // Cihaz tipine göre limitle
-      const resultLimit = isMobile ? 8 : 9;
+      const resultLimit = isMobile ? 8 : 8;
       return uniqueNames.slice(0, resultLimit);
     } catch (error) {
       console.error("İsim önerisi oluşturulurken hata:", error);
