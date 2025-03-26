@@ -82,11 +82,11 @@ document.addEventListener('DOMContentLoaded', function() {
         
         const prevArrow = document.createElement('button');
         prevArrow.className = 'brit-slider-arrow brit-prev-arrow';
-        prevArrow.innerHTML = '<i class="fas fa-chevron-left"></i>';
+        prevArrow.innerHTML = '<i class="ti-angle-left"></i>';
         
         const nextArrow = document.createElement('button');
         nextArrow.className = 'brit-slider-arrow brit-next-arrow';
-        nextArrow.innerHTML = '<i class="fas fa-chevron-right"></i>';
+        nextArrow.innerHTML = '<i class="ti-angle-right"></i>';
         
         navigation.appendChild(prevArrow);
         navigation.appendChild(nextArrow);
